@@ -12,6 +12,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setClub(data.leagues))
     }, []);
+    console.log(club);
         
     return (
         <Container >

@@ -1,0 +1,30 @@
+.main{
+    margin:100px;
+    padding:20px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(71, 71, 172)
+
+}
+.ex{
+    display:flex;
+    background-color:blueviolet;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 20px;
+    color: aliceblue;
+
+
+}
+.ex img{
+    height: 150px;
+    float: right;
+    padding-left: 100px;
+}
+.icon{
+    margin: 20px 100px;
+    background-color: rgb(238, 231, 231);
+    padding:30px;
+    text-align: center;
+    border-radius: 50%;
+}

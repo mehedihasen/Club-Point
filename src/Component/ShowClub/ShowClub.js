@@ -1,5 +1,5 @@
 
-import { faHandPointLeft } from '@fortawesome/free-regular-svg-icons';
+
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
