@@ -11,6 +11,8 @@ import {
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
+import Detail from './Component/Detail/Detail'
+
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         <Switch>
           <Route path="/Home">
             <Home/>
+          </Route>
+          <Route path ="/Datile/:id">
+              <Detail/>
           </Route>
           <Route exact path="/">
             <Home/>
