@@ -1,8 +1,11 @@
 
 
-import React, { useEffect, useState } from 'react';
+
+
 import { Button } from 'react-bootstrap';
-import { useHistory } from 'react-router-dom';
+
+import {  useHistory } from 'react-router-dom';
+
 
 import "./showclub.css";
 
@@ -22,6 +25,7 @@ const ShowClub = (props) => {
            
         <Button onClick={()=>handel(idLeague)}>explopr</Button>
         
+   
    
         </div>
     );
